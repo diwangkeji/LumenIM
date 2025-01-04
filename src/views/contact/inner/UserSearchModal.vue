@@ -69,7 +69,7 @@ const onShowUpdate = () => {
       <n-form-item label="请输入手机号" :required="true">
         <n-input
           placeholder="必填"
-          :maxlength="30"
+          maxlength="11"
           v-model:value="keyword"
           @keydown.enter="onSubmit"
         />
