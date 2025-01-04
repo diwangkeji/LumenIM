@@ -71,22 +71,22 @@ const onValidate = (e: Event) => {
   })
 }
 
-const onClickAccount = (type: number) => {
-  if (type == 1) {
-    model.username = '13800000001'
-    model.password = 'admin123'
-  } else {
-    model.username = '13800000002'
-    model.password = 'admin123'
-  }
-
-  onLogin()
-}
+// const onClickAccount = (type: number) => {
+//  if (type == 1) {
+//    model.username = '13800000001'
+//    model.password = 'admin123'
+//  } else {
+//    model.username = '13800000002'
+//    model.password = 'admin123'
+//  }
+//
+//  onLogin()
+// }
 </script>
 
 <template>
   <section class="el-container is-vertical login-box login">
-    <header class="el-header box-header">快捷登录</header>
+    <header class="el-header box-header">用户登录</header>
 
     <main class="el-main" style="padding: 3px">
       <n-form ref="formRef" size="large" :model="model" :rules="rules">
@@ -132,11 +132,11 @@ const onClickAccount = (type: number) => {
 
     <footer class="el-footer" style="height: 90px">
       <n-divider style="height: 30px; margin: 0">
-        <span style="color: #ccc; font-weight: 300"> 预览账号</span>
+        <span style="color: #999; font-weight: 600"> 注册提醒</span>
       </n-divider>
       <div class="preview-account">
-        <p @click="onClickAccount(1)">预览账号:187****0001 / 密码: admin123</p>
-        <p @click="onClickAccount(2)">预览账号:187****0002 / 密码: admin123</p>
+        <p style="color: #666; font-weight: 300">使用手机号作为账号，任意填写即可，不要使用真实的和个人的。</p>
+        <p style="color: #666; font-weight: 300">注册后请您牢记，如果不慎忘记账号或密码，直接重新注册新的。</p>
       </div>
     </footer>
   </section>
