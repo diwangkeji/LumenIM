@@ -5,8 +5,7 @@ import Welcome from '@/assets/image/welcome.svg'
 <template>
   <div class="amicable flex-center">
     <div class="content">
-      <img :src="Welcome" />
-      <p>LumenIM 欢迎您(*^__^*)</p>
+
     </div>
   </div>
 </template>
