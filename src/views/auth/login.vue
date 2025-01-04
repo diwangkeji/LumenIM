@@ -135,8 +135,8 @@ const onValidate = (e: Event) => {
         <span style="color: #999; font-weight: 600"> 注册提醒</span>
       </n-divider>
       <div class="preview-account">
-        <p style="color: #666; font-weight: 300">使用手机号作为账号，任意填写即可，不要使用真实的和个人的。</p>
-        <p style="color: #666; font-weight: 300">注册后请您牢记，如果不慎忘记账号或密码，直接重新注册新的。</p>
+        <p style="color: #666; font-weight: 300">手机号任意编写，不要使用真实的或个人的。</p>
+        <p style="color: #666; font-weight: 300">如果忘记账号或密码，直接重新再注册新的。</p>
       </div>
     </footer>
   </section>
