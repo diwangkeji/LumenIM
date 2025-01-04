@@ -106,7 +106,7 @@ const onSendSms = async () => {
 
   if (data?.is_debug) {
     model.sms_code = data.sms_code
-    window['$message'].success('已开启验证码自动填充')
+    window['$message'].success('已开启验证码自动填写')
   }
 }
 </script>
