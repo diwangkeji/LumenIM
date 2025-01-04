@@ -1,5 +1,5 @@
 {
-  "name": "lumenim",
+  "name": "MyaIm",
   "private": true,
   "version": "1.0.0",
   "main": "electron/main.cjs",
@@ -65,9 +65,9 @@
     "wait-on": "^6.0.1"
   },
   "build": {
-    "appId": "com.gzydong.lumenim",
-    "productName": "LumenIM",
-    "copyright": "Copyright © 2024 LumenIM",
+    "appId": "com.loveyoufree.MyaIm",
+    "productName": "myim",
+    "copyright": "Copyright © 2025 MyaIm",
     "mac": {
       "category": "public.app-category.utilities",
       "icon": "build/icons/lumen-im-mac.png"
