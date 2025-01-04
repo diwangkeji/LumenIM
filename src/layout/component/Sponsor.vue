@@ -24,19 +24,25 @@ const onClose = () => {
   <div>
     <div class="reward" v-show="isShow">
       <div class="title">
-        <span>最新公告：</span>
+        <span>开源支持</span>
         <n-icon :size="18" :component="Close" @click="onClose" />
       </div>
 
       <div class="main">
         <div class="pay-box">
-        暂无！
+          <img
+            src="https://im.gzydong.com/public/media/image/talk/20230226/dfc440a2bdb2ae852d57a2003b3b350b_737x742.png"
+          />
+          <p>支付宝</p>
         </div>
         <div class="pay-box">
-        暂无！
+          <img
+            src="https://im.gzydong.com/public/media/image/talk/20230226/6493e01b44b6e5cb6a219cea863eb13e_621x620.png"
+          />
+          <p>微信</p>
         </div>
       </div>
-      <div class="footer">CopyRight 2022-2025 www.dwkj.me</div>
+       <div class="footer">开源不易，如果你觉得项目对你有帮助，可以请作者喝杯咖啡☕️！鼓励下...</div>
     </div>
   </div>
 </template>
